@@ -1,0 +1,27 @@
+.surzex_links{
+    background-color: red;
+}
+.surzex_title{
+    margin-top: 20rem;
+    text-shadow: 5px 5px 2px black;
+}
+.surzex_subtitle{
+    text-shadow: 3px 3px 2px black;
+}
+.surzex_icon{
+    margin: 0 !important;
+}
+.surzex_handle:hover{
+    transform:rotateZ(20deg);
+    transition: all 0.2s ease-in-out;
+    /* margin: 5rem; */
+}
+@media(width<1000px){
+    .surzex_title{
+        margin-top: 10rem;
+        text-shadow: 3px 3px black;
+    }
+    .surzex_subtitle{
+        text-shadow: 2px 2px 2px black;
+    }
+}
